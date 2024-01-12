@@ -65,9 +65,28 @@
 
 // console.log(username)
 
-let username ;
+// let username ;
 
-document.getElementById("mybutton").onclick = function(){
-    username = document.getElementById("myname").value;
-    document.getElementById("data").textContent = `this is your id ${username}`
-}
+// document.getElementById("mybutton").onclick = function(){
+//     username = document.getElementById("myname").value;
+//     document.getElementById("data").textContent = `this is your id ${username}`
+// }
+//type conversion
+
+// let age = window.prompt ("enter your name")
+
+// age += 1
+
+// console.log(age, typeof age)
+
+let x = 878;
+let y = "hello";
+let z = "k";
+
+x = Number(x)
+y = String(y)
+z = Boolean(z)
+
+console.log(x, typeof x)
+console.log(y, typeof y)
+console.log(z, typeof z)
