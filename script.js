@@ -24,7 +24,9 @@
 // document.getElementById("p2").textContent = `my age ${age}`;
 // document.getElementById("p3").textContent = `my location ${myland}`;
 
-let amount = 40
+//Arithmetic operators
+
+// let amount = 40
 
 // amount = amount +1
 // amount = amount -1
@@ -33,23 +35,39 @@ let amount = 40
 // amount = amount **2
 
 // amount += 1
-//amount -= 1
-//amount *= 5
+// amount -= 1
+// amount *= 5
 // amount /= 1
 // amount **= 1
-//amount++
-//amount--
+// amount++
+// amount--
 
 
-//console.log(amount)
-/*
-operator precedence
-1 parenthesis ()
-2 exponents 
-3 multiplications & division & modulo
-4 addition & subtraction
-*/
+// console.log(amount)
 
-let result = 2 + 3 - 4 * 3 % 4
+// operator precedence
+// 1 parenthesis ()
+// 2 exponents 
+// 3 multiplications & division & modulo
+// 4 addition & subtraction
 
-console.log(result)
+
+// let result = 2 + 3 - 4 * 6 % 4
+
+// console.log(result)
+
+
+//user input 
+
+// let username;
+
+// username = window.prompt("Enter your name")
+
+// console.log(username)
+
+let username ;
+
+document.getElementById("mybutton").onclick = function(){
+    username = document.getElementById("myname").value;
+    document.getElementById("data").textContent = `this is your id ${username}`
+}
